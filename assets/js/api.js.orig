@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+// var api = 'https://d295b5d5.ngrok.io';
+// var api = 'https://bg.bbstaging.club';
+var api;
+if(window.location.host === 'admin.altarjoy.com'){
+    api = 'https://bg.bbstaging.club';
+}
+else{
+    api = 'https://d295b5d5.ngrok.io';
+}
+=======
+//var api = 'https://d295b5d5.ngrok.io';
+ var api = 'https://bg.bbstaging.club';
+>>>>>>> 355d7221044905e377a19936b01fc206f68e749e
