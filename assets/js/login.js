@@ -24,7 +24,7 @@ $(document).ready(function(){
                     console.log(token);
                     localStorage.setItem('Token', token)
                     sessionStorage.setItem('token', token);
-                    window.location = '../HTML/dashboard.html'
+                    window.location = '../dashboard.html'
                 },
                 error: function(err){
                     showNotification(err.responseJSON.errors)
