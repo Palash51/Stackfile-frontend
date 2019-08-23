@@ -17,8 +17,10 @@ $(document).ready(function(){
     
     
     xhr.onreadystatechange = function ( response ) {
-      if (this.status == 200) {
+      if (this.readyState == 4 && this.status == 200) {
             alert("You have successfully Uploaded File");
+            location.reload();
+
         }
     };
     xhr.send(data);
