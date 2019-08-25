@@ -5,5 +5,5 @@ if(window.location.host === 'admin.com'){
 else if(window.location.host === 'domaintest.club'){
     api = 'https://bg.domain.club';
 }else{
-    api = 'http://3.15.171.10:8080';
+    api = 'https://6811c231.ngrok.io';
 }
